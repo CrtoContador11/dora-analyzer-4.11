@@ -14,8 +14,8 @@ const Home: React.FC<HomeProps> = ({ language, onStartQuestionnaire }) => {
         </h1>
         <p className="mb-6 text-base sm:text-lg text-gray-600 text-justify">
           {language === 'es'
-            ? 'DORA Analyzer es una herramienta desarrollada por Ozona Consulting para MEO para recopilar y analizar información de las entidades financieras clientes de MEO que deben tener cumplimiento con el reglamento europeo DORA.'
-            : 'DORA Analyzer é uma ferramenta desenvolvida pela Ozona Consulting para a MEO para recolher e analisar informação das entidades financeiras clientes da MEO que devem estar em conformidade com o regulamento europeu DORA.'}
+            ? 'DORA Analyzer 4.1 es una herramienta desarrollada por Ozona Consulting para MEO para recopilar y analizar información de las entidades financieras clientes de MEO que deben tener cumplimiento con el reglamento europeo DORA.'
+            : 'DORA Analyzer 4.1 é uma ferramenta desenvolvida pela Ozona Consulting para a MEO para recolher e analisar informação das entidades financeiras clientes da MEO que devem estar em conformidade com o regulamento europeu DORA.'}
         </p>
         <div className="flex justify-center">
           <button
